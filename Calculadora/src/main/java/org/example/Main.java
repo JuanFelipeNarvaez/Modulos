@@ -4,6 +4,7 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Hola Mundo");
         Operaciones objeto = new Operaciones();
         int a = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el primer numero"));
         int b = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el segundo numero"));
